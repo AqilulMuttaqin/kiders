@@ -20,21 +20,21 @@ Ikuti langkah-langkah berikut untuk menginstall aplikasi ini di mesin lokal kamu
 
 1. **Clone atau Download Repository**
     Clone project ke direktori lokal kamu:
-    git clone https://github.com/AqilulMuttaqin/kiders.git
+    - git clone https://github.com/AqilulMuttaqin/kiders.git
 
 2. **Install Dependencies**
     Pindah ke direktori project, kemudian jalankan perintah berikut untuk menginstall dependencies:
-    composer install
-    npm install
+    - composer install
+    - npm install
 
 3. **Setup Konfigurasi dan Database**
     Setup File Konfigurasi Copy file .env.example dan rename menjadi .env dan edit database pada file .env:
-    cp .env.example .env
+    - cp .env.example .env
 
 4. **Migrasi dan Seed Database**
     Jalankan migrasi database untuk membuat tabel-tabel yang dibutuhkan:
-    php artisan migrate
-    php artisan db:seed
+    - php artisan migrate
+    - php artisan db:seed
 
 5. **Jalankan Aplikasi**
     Jalankan aplikasi Laravel menggunakan 2 terminal dengan perintah masing-masing:
